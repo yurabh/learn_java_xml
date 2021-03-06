@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<tns:Users xmlns:tns="http://nure.ua/your_last_name/practice7"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://nure.ua/your_last_name/practice7 input.xsd">
+    <User>
+        <Name>Oleg</Name>
+        <Age>103</Age>
+        <City>LVIV</City>
+        <Surname>Popov</Surname>
+    </User>
+
+    <User>
+        <Name>Andrew</Name>
+        <Age>12</Age>
+        <City>DNIPRO</City>
+        <Surname>Work</Surname>
+    </User>
+
+    <User>
+        <Name>Bred</Name>
+        <Age>333</Age>
+        <City>KUIV</City>
+        <Surname>Pit</Surname>
+    </User>
+
+</tns:Users>
