@@ -9,7 +9,6 @@ public class User {
     private City city;
     private String surName;
 
-
     public User() {
     }
 
@@ -51,7 +50,6 @@ public class User {
     public void setSurName(String surName) {
         this.surName = surName;
     }
-
 
     @Override
     public boolean equals(Object o) {

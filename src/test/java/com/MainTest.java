@@ -12,13 +12,11 @@ public class MainTest {
 
     private InputStream original = System.in;
 
-    private FileInputStream input;
-
     @Test
     public void shouldTestMain() {
         String[] args = new String[]{"input.xml"};
         try {
-            input = new FileInputStream(new File("input.xml"));
+            FileInputStream input = new FileInputStream(new File("input.xml"));
             System.setIn(input);
             Main.main(args);
             System.setIn(original);
